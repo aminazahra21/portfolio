@@ -99,4 +99,36 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
-  
+.footer{
+  background-color: burlywood;
+  color: aliceblue;
+  padding: 40px ;
+  text-align: center;
+}
+.footer-content{
+display: flex;
+justify-content: space-between;
+}
+  .footer-column{
+    flex: 1;
+    margin-right: 20px;
+  }
+  .footer-column :last-child{
+    margin-right: 0;
+
+  }
+  .footer-column h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .footer-column p, .footer-column ul{
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  .footer-column ul li{
+    margin-bottom: 10px;
+  }
+  .footer-column ul li a{
+    color: white;
+    text-decoration: none;
+  }
